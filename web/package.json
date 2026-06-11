@@ -7,7 +7,7 @@
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "@types/react-leaflet": "^2.5.1",
-    "axios": "^1.6.7",
+    "axios": "^1.17.0",
     "leaflet": "^1.6.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
@@ -41,5 +41,13 @@
   },
   "devDependencies": {
     "@types/react-router-dom": "^5.1.5"
+  },
+  "overrides": {
+    "ws": "^8.21.0",
+    "@babel/helpers": "^7.29.7",
+    "@babel/runtime": "^7.29.7",
+    "@babel/runtime-corejs3": "^7.29.7",
+    "yaml": "^2.9.0",
+    "webpack": "^5.107.2"
   }
 }
